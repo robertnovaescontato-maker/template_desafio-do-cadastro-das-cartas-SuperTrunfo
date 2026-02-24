@@ -2,7 +2,7 @@
 
 int main(){
 
-    //----- TESTE VARIÁVEIS CARTA 1 e 2 -----
+    //----- VARIÁVEIS CARTA 1 e 2 -----
     char estado1[20], estado2[20];
     char codigo1[3], codigo2[3];
     char nome1[20], nome2[20];
@@ -14,8 +14,8 @@ int main(){
     // ----- COLETA DE DADOS CARTA 1 -----
 
     printf("[Carta 1] Digite o Estado:\n");
-    scanf(" %c", &estado1);
-    printf("Seu estado é: %c\n", estado1);
+    scanf(" %s", &estado1);
+    printf("Seu estado é: %s\n", estado1);
 
     printf("[Carta 1] Digite o código:\n");
     scanf("%s", &codigo1);
@@ -46,8 +46,8 @@ int main(){
         // ----- Coleta de dados  CARTA 2 -----
 
     printf("[Carta 2] Digite o Estado:\n");
-    scanf(" %c", &estado2);
-    printf("Seu estado é: %c\n", estado2);
+    scanf(" %s", &estado2);
+    printf("Seu estado é: %s\n", estado2);
 
     printf("[Carta 2] Digite o código:\n");
     scanf("%s", &codigo2);
