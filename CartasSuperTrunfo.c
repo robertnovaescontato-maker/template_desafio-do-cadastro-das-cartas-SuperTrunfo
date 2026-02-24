@@ -11,7 +11,7 @@ int main(){
     float pib1, pib2;
     int pt1,pt2;
 
-    // ----- Coleta de dados  CARTA 1 -----
+    // ----- COLETA DE DADOS CARTA 1 -----
 
     printf("[Carta 1] Digite o Estado:\n");
     scanf(" %c", &estado1);
