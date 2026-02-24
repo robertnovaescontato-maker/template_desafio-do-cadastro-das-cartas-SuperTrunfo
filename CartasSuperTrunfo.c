@@ -2,7 +2,7 @@
 
 int main(){
 
-    //----- VARIÁVEIS CARTA 1 e 2 -----
+    //----- TESTE VARIÁVEIS CARTA 1 e 2 -----
     char estado1[20], estado2[20];
     char codigo1[3], codigo2[3];
     char nome1[20], nome2[20];
